@@ -1,0 +1,15 @@
+---
+title: Real-time tweets (uploading...)
+subtitle: Node.js, Socket.io
+layout: default
+modal-id: 3
+date: 2018-11-30
+img: [tweeting1.png]
+thumbnail: tweeting1.png
+alt: image-alt
+project-date: Coming Soon
+client: View on Github
+category: Web Development
+description: See what people are tweeting about. Find out where in the world people are tweeting and what areas is twitter most prevalent. Search for certain topics or keywords to find what is being said about it.
+
+---

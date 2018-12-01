@@ -1,0 +1,16 @@
+---
+title: 2018-19 NFL Pick'em
+subtitle: Ruby on Rails
+layout: default
+modal-id: 1
+date: 2018-11-15
+img: [pickem1.png, pickem2.png, pickem3.png, pickem4.png]
+thumbnail: pickem1.png
+alt: image-alt
+project-date: October 2018
+client: View on Github
+site: https://github.com/ethanlow23/2018-19-nfl-pickem
+category: Web Development
+description: I created this application because of my love for sports and the popularity of fantasy sports. I built a web scraper using BeautifulSoup to acquire the schedule for the NFL season and the scores after each week. The database is updated using cron jobs that is set to run after each day there is at least one game played. The app is like other traditional fantasy pick'em leagues where, every week, you make picks based on who you believe will win. You and your friends can compete against each other through groups and see who has the highest score by the end of the season.
+
+---

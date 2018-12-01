@@ -1,0 +1,16 @@
+---
+title: Travel Guide
+subtitle: Python, Django
+layout: default
+modal-id: 2
+date: 2018-11-18
+img: [travel_guide1.png, travel_guide2.png, travel_guide3.png, travel_guide4.png]
+thumbnail: travel_guide1.png
+alt: image-alt
+project-date: November 2018
+client: View on Github
+site: https://github.com/ethanlow23/travel-guide
+category: Web Development
+description: Have you ever traveled or gone somewhere and realized you have no idea what to do or where to go? This travel guide allows you to search for popular places in different locations. Looking for a specific category like bars or outdoors? Filter results by what you are looking for including food, shopping, outdoors, and drinks. Find details about each venue and read what other users have said about it. Write your own review and rating for places that you have been to. This application utilizes the Foursquare API and Google Maps API.
+
+---

@@ -1,0 +1,64 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+                                <!-- Full-width images with number and caption text -->
+                                {% for img in post.img %}
+                                    <div class="mySlides slides{{ post.modal-id }} fade">
+                                        <div class="numbertext">{{ forloop.index }} / {{ forloop.length }}</div>
+                                        <img src="img/portfolio/{{ img }}" alt="{{ post.alt }}" style="width:100%">
+                                    </div>
+                                {% endfor %}
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1, {{ post.modal-id }})">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1, {{ post.modal-id }})">&#10095;</a>
+                            </div>
+                            <br>
+                            <!-- The dots/circles -->
+                            <div style="text-align:center; padding-bottom:20px">
+                                {% for img in post.img %}
+                                    <span class="dot dots{{ post.modal-id }}" onclick="currentSlide({{ forloop.index }}, {{ post.modal-id }})"></span>
+                                {% endfor %}
+                            </div>
+                            <p>{{ post.description }}</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong>
+                                      {% if post.site %}
+                                        <a href="{{ post.site }}" class="btn btn-primary" target="_blank">{{ post.client }}</a>
+                                      {% endif %}
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>{{ post.project-date }}
+                                    </strong>
+                                </li>
+<!--
+                                <li>Service:
+                                    <strong><a href="">{{ post.category }}</a>
+                                    </strong>
+                                </li>
+-->
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

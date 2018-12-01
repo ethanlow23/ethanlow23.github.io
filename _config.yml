@@ -1,0 +1,30 @@
+url: ""
+baseurl: ""
+
+# Site settings
+title: Ethan F. Low
+email: ethanlow223@yahoo.com
+phone: +14156800928
+description: "Visit the portfolio of Ethan Low to learn more about him and his technical skills. View projects that showcase some of these skills."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/ethanlow23
+  - title: linkedin
+    url: http://linkedin.com/in/ethanlow23
+  - title: twitter
+    url: http://twitter.com/ethanlow23
+  - title: facebook
+    url: http://facebook.com/ethanlow23
+  - title: instagram
+    url: http://instagram.com/ethanlow23
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 487 Crespi Place
+  - line: San Lorenzo, CA 94580
+
+# Build settings
+markdown: kramdown
+permalink: pretty
