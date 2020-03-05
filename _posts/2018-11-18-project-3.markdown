@@ -2,7 +2,7 @@
 title: Travel Guide
 subtitle: Python, Django
 layout: default
-modal-id: 2
+modal-id: 3
 date: 2018-11-18
 img: [travel_guide1.png, travel_guide2.png, travel_guide3.png, travel_guide4.png]
 thumbnail: travel_guide1.png

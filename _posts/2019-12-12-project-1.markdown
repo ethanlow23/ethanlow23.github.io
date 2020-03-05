@@ -1,0 +1,16 @@
+---
+title: Receipt Tracker
+subtitle: Flask, React
+layout: default
+modal-id: 1
+date: 2019-12-12
+img: [receipt_tracker1.png, receipt_tracker2.png, receipt_tracker3.png, receipt_tracker4.png]
+thumbnail: receipt_tracker1.png
+alt: image-alt
+project-date: December 2019
+client: View on Github
+site: https://github.com/ethanlow23/team-bubblegum
+category: Web Development
+description: We all love spending money. Sometimes we lose discipline and do not realize how much we are spending until it is too late. Receipt Tracker is here to help you with this problem. It will keep track of how much you are spending and let you know if you are spending too much. This application was built as part of a team using agile development. I contributed from the front end (Flask Python) to the back end (React JavaScript), including setting up celery to run background tasks and cron jobs for emailing monthly reports of their spending.
+
+---

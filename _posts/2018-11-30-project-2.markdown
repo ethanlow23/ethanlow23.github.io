@@ -2,8 +2,8 @@
 title: 2018-19 NFL Pick'em
 subtitle: Ruby on Rails
 layout: default
-modal-id: 1
-date: 2018-11-15
+modal-id: 2
+date: 2018-11-30
 img: [pickem1.png, pickem2.png, pickem3.png, pickem4.png]
 thumbnail: pickem1.png
 alt: image-alt
